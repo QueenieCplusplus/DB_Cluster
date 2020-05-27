@@ -7,7 +7,7 @@
    
 ｜｜ Manipulate Data in NDB
 
-https://dev.mysql.com/doc/mysql-cluster-excerpt/8.0/en/mysql-cluster-install-example-data.html
+  https://dev.mysql.com/doc/mysql-cluster-excerpt/8.0/en/mysql-cluster-install-example-data.html
 
 
       CREATE TABLE tbl_name (col_name column_definitions) ENGINE=NDBCLUSTER;
@@ -200,6 +200,12 @@ For more information about these node types, please refer to Section 1.3.3, “R
    * TC (Transaction Coordinator)  
 
    Handles coordination of transactions and timeouts in the NDB kernel (see The DBTC Block). Provides interfaces to the NDB API for performing indexes and scan operations.
+
+
+
+
+
+
 
 
 
