@@ -1,8 +1,13 @@
 # DB Cluster
 
+
 ｜｜ NDB
    
    This originally stood for “Network DataBase”. It now refers to the MySQL storage engine (named NDB or NDBCLUSTER) used to enable the NDB Cluster distributed database system.
+   
+｜｜ Manipulate Data in NDB
+
+      CREATE TABLE tbl_name (col_name column_definitions) ENGINE=NDBCLUSTER;
 
 ｜｜ NDB API
 
