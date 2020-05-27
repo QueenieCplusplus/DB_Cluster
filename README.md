@@ -1,5 +1,9 @@
 # DB Cluster
 
+NDB
+   
+   This originally stood for “Network DataBase”. It now refers to the MySQL storage engine (named NDB or NDBCLUSTER) used to enable the NDB Cluster distributed database system.
+
  NDB API
 
    NDB API app access the NDB Cluster's data store directly, without requiring a MySQL Server as an intermediary. This means that such apps are not bound by the MySQL privilege system; any NDB API app has R/W access to any NDB table stored in the same NDB Cluster at any time without restriction. (sync replica & cluster of nodes to do extensions.)
@@ -176,10 +180,6 @@ For more information about these node types, please refer to Section 1.3.3, “R
    * Transporter
 
    A protocol providing data transfer across a network. The NDB API supports three different types of transporter connections: TCP/IP (local), TCP/IP (remote), and SHM. TCP/IP is, of course, the familiar network protocol that underlies HTTP, FTP, and so forth, on the Internet. SHM stands for Unix-style shared memory segments.
-
-   * NDB
-   
-   This originally stood for “Network DataBase”. It now refers to the MySQL storage engine (named NDB or NDBCLUSTER) used to enable the NDB Cluster distributed database system.
 
   * ACC (Access Manager)
 
