@@ -104,3 +104,13 @@
         return 0;
       }
 
+
+* Check Point
+
+Local checkpoint (LCP).  This is a checkpoint that is specific to a single node; however, LCPs take place for all nodes in the cluster more or less concurrently. 
+
+An LCP involves saving all of a node's data to disk, and so usually occurs every few minutes, depending upon the amount of data stored by the node.
+
+More detailed information about LCPs and their behavior can be found in the MySQL Manual; see in particular Defining NDB Cluster Data Nodes.
+
+Global checkpoint (GCP).  A GCP occurs every few seconds, when transactions for all nodes are synchronized and the REDO log is flushed to disk.
