@@ -156,7 +156,7 @@ A related term is GCI, which stands for “Global Checkpoint ID”. This marks t
 For more information about these node types, please refer to Section 1.3.3, “Review of NDB Cluster Concepts”, or to NDB Cluster Programs, in the MySQL Manual.
 
 
-   * itial node restart. 
+   * initial node restart. 
 
    The process of starting an NDB Cluster node with its file system having been removed. 
    This is sometimes used in the course of software upgrades and in other special circumstances.
