@@ -132,8 +132,13 @@ A related term is GCI, which stands for “Global Checkpoint ID”. This marks t
 
 * Failover 容錯備援功能
 
+   * Node failure.  
+   
+   An NDB Cluster is not solely dependent upon the functioning of any single node making up the cluster, which can continue to run even when one node fails.
+
+   * Node restart.  
+   
+   The process of restarting an NDB Cluster node which has stopped on its own or been stopped deliberately. This can be done for several different reasons, listed here:
+
 For more information about these node types, please refer to Section 1.3.3, “Review of NDB Cluster Concepts”, or to NDB Cluster Programs, in the MySQL Manual.
 
-Node failure.  An NDB Cluster is not solely dependent upon the functioning of any single node making up the cluster, which can continue to run even when one node fails.
-
-Node restart.  The process of restarting an NDB Cluster node which has stopped on its own or been stopped deliberately. This can be done for several different reasons, listed here:
