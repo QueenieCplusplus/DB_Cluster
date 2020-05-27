@@ -7,6 +7,9 @@
    
 ｜｜ Manipulate Data in NDB
 
+https://dev.mysql.com/doc/mysql-cluster-excerpt/8.0/en/mysql-cluster-install-example-data.html
+
+
       CREATE TABLE tbl_name (col_name column_definitions) ENGINE=NDBCLUSTER;
 
 ｜｜ NDB API
