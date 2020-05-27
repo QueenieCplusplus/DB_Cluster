@@ -114,3 +114,26 @@ An LCP involves saving all of a node's data to disk, and so usually occurs every
 More detailed information about LCPs and their behavior can be found in the MySQL Manual; see in particular Defining NDB Cluster Data Nodes.
 
 Global checkpoint (GCP).  A GCP occurs every few seconds, when transactions for all nodes are synchronized and the REDO log is flushed to disk.
+
+
+A related term is GCI, which stands for “Global Checkpoint ID”. This marks the point in the REDO log where a GCP took place.
+
+
+* Node
+
+  * A component of NDB Cluster. 3 node types are supported:
+
+     * A management (MGM) node is an instance of ndb_mgmd, the NDB Cluster management server daemon.
+
+     * A data node an instance of ndbd, the NDB Cluster data storage daemon, and stores NDB Cluster data. This may also be an instance of ndbmtd, a multithreaded version of ndbd.
+
+     * An API nodeis an application that accesses NDB Cluster data. SQL node refers to a mysqld (MySQL Server) process that is connected to the NDB Cluster as an API node.
+
+
+* Failover 容錯備援功能
+
+For more information about these node types, please refer to Section 1.3.3, “Review of NDB Cluster Concepts”, or to NDB Cluster Programs, in the MySQL Manual.
+
+Node failure.  An NDB Cluster is not solely dependent upon the functioning of any single node making up the cluster, which can continue to run even when one node fails.
+
+Node restart.  The process of restarting an NDB Cluster node which has stopped on its own or been stopped deliberately. This can be done for several different reasons, listed here:
