@@ -154,27 +154,28 @@ For more information about these node types, please refer to Section 1.3.3, “R
 
    * itial node restart. 
 
-The process of starting an NDB Cluster node with its file system having been removed. This is sometimes used in the course of software upgrades and in other special circumstances.
+   The process of starting an NDB Cluster node with its file system having been removed. 
+   This is sometimes used in the course of software upgrades and in other special circumstances.
 
    * System crash (system failure)  
 
-This can occur when so many data nodes have failed that the NDB Cluster's state can no longer be guaranteed.
+   This can occur when so many data nodes have failed that the NDB Cluster's state can no longer be guaranteed.
 
    * System restart
 
-The process of restarting an NDB Cluster and reinitializing its state from disk logs and checkpoints. This is required after any shutdown of the cluster, planned or unplanned.
+   The process of restarting an NDB Cluster and reinitializing its state from disk logs and checkpoints. This is required after any shutdown of the cluster, planned or unplanned.
 
    * Fragment
 
-Contains a portion of a database table. In the NDB storage engine, a table is broken up into and stored as a number of subsets, usually referred to as fragments. A fragment is sometimes also called a partition.
+   Contains a portion of a database table. In the NDB storage engine, a table is broken up into and stored as a number of subsets, usually referred to as fragments. A fragment is sometimes also called a partition.
 
    * Replica 
 
-Under the NDB storage engine, each table fragment has number of replicas in order to provide redundancy.
+   Under the NDB storage engine, each table fragment has number of replicas in order to provide redundancy.
 
    * Transporter
 
-A protocol providing data transfer across a network. The NDB API supports three different types of transporter connections: TCP/IP (local), TCP/IP (remote), and SHM. TCP/IP is, of course, the familiar network protocol that underlies HTTP, FTP, and so forth, on the Internet. SHM stands for Unix-style shared memory segments.
+   A protocol providing data transfer across a network. The NDB API supports three different types of transporter connections: TCP/IP (local), TCP/IP (remote), and SHM. TCP/IP is, of course, the familiar network protocol that underlies HTTP, FTP, and so forth, on the Internet. SHM stands for Unix-style shared memory segments.
 
    * NDB
    
@@ -182,14 +183,14 @@ A protocol providing data transfer across a network. The NDB API supports three 
 
   * ACC (Access Manager)
 
-An NDB kernel block that handles hash indexes of primary keys providing speedy access to the records. For more information, see The DBACC Block.
+   An NDB kernel block that handles hash indexes of primary keys providing speedy access to the records. For more information, see The DBACC Block.
 
   * TUP (Tuple Manager)
 
-This NDB kernel block handles storage of tuples (records) and contains the filtering engine used to filter out records and attributes when performing reads or updates. See The DBTUP Block, for more information.
+  This NDB kernel block handles storage of tuples (records) and contains the filtering engine used to filter out records and attributes when performing reads or updates. See The DBTUP Block, for more information.
 
    * TC (Transaction Coordinator)  
 
-Handles coordination of transactions and timeouts in the NDB kernel (see The DBTC Block). Provides interfaces to the NDB API for performing indexes and scan operations.
+   Handles coordination of transactions and timeouts in the NDB kernel (see The DBTC Block). Provides interfaces to the NDB API for performing indexes and scan operations.
 
 
