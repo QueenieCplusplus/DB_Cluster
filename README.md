@@ -1,5 +1,9 @@
 # DB Cluster
 
+manual :
+
+  https://downloads.mysql.com/docs/mysql-cluster-excerpt-8.0-en.pdf
+
 
 ｜｜ NDB
    
