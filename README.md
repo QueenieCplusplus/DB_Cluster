@@ -139,6 +139,15 @@ A related term is GCI, which stands for “Global Checkpoint ID”. This marks t
    * Node restart.  
    
    The process of restarting an NDB Cluster node which has stopped on its own or been stopped deliberately. This can be done for several different reasons, listed here:
+   
+   
+     (1) Restarting a node which has shut down on its own. (This is known as forced shutdown or node failure; the other cases discussed here involve manually shutting down the node and restarting it).
+
+     (2) To update the node's configuration.
+
+     (3) As part of a software or hardware upgrade.
+
+     (4) In order to defragment the node's DataMemory.
 
 For more information about these node types, please refer to Section 1.3.3, “Review of NDB Cluster Concepts”, or to NDB Cluster Programs, in the MySQL Manual.
 
