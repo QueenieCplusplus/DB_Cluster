@@ -12,7 +12,11 @@ download :
 auto-installer:
 
   https://www.mysql.com/products/cluster/installer.html
-
+  
+  
+    specify workload 負載 ---> auto discover ---> define topology 拓樸 ---> deploy 部署
+  
+ 
 manual for kernel :
 
   https://downloads.mysql.com/docs/mysql-cluster-excerpt-8.0-en.pdf
