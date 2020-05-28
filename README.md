@@ -1,5 +1,9 @@
 # DB Cluster
 
+to install NDB and using its nodes:
+
+https://youyouyou.pixnet.net/blog/post/119326123-mysql-cluster-實做
+
 quick start :
 
   https://downloads.mysql.com/tutorials/cluster/mysql_wp_cluster_quickstart.pdf
