@@ -8,7 +8,12 @@ download :
 
   https://dev.mysql.com/downloads/file/?id=494619
 
-manual :
+
+auto-installer:
+
+  https://www.mysql.com/products/cluster/installer.html
+
+manual for kernel :
 
   https://downloads.mysql.com/docs/mysql-cluster-excerpt-8.0-en.pdf
 
