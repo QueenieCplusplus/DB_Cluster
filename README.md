@@ -38,6 +38,11 @@ the property also includes the app area and writing load.
 
 then edit hosts, including platform/memory/cpu/fs: data dir, and mysql cluster installing dir.
 
+    usr/local/bin
+    
+    
+    /var/lib/mysql-cluster-data
+
 
 manual for kernel :
 
