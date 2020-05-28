@@ -36,7 +36,7 @@ fill in the cluster name and hostlist.
 
 the property also includes the app area and writing load.
 
-then edit hosts, including platform/memory/cpu/fs: data dir.
+then edit hosts, including platform/memory/cpu/fs: data dir, and mysql cluster installing dir.
 
 
 manual for kernel :
