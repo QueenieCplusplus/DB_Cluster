@@ -16,7 +16,22 @@ auto-installer:
   
     specify workload 負載 ---> auto discover ---> define topology 拓樸 ---> deploy 部署
   
- 
+  
+     
+     
+       mysqld                        mysqld     
+        mgmt                          mgmt
+  
+    192.168.1.14                  192.168.1.15
+    
+    
+    
+      Data Node                    Data Node
+    
+    192.168.1.16                  192.168.1.17
+  
+  
+  
 manual for kernel :
 
   https://downloads.mysql.com/docs/mysql-cluster-excerpt-8.0-en.pdf
