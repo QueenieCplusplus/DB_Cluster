@@ -36,6 +36,8 @@ fill in the cluster name and hostlist.
 
 the property also includes the app area and writing load.
 
+then edit hosts, including platform/memory/cpu/fs: data dir.
+
 
 manual for kernel :
 
