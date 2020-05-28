@@ -1,5 +1,9 @@
 # DB Cluster
 
+quick start :
+
+  https://downloads.mysql.com/tutorials/cluster/mysql_wp_cluster_quickstart.pdf
+
 manual :
 
   https://downloads.mysql.com/docs/mysql-cluster-excerpt-8.0-en.pdf
