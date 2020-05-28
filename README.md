@@ -30,8 +30,13 @@ auto-installer:
     
     192.168.1.16                  192.168.1.17
   
-  
-  
+
+to start the html page to create the new cluster
+fill in the cluster name and hostlist.
+
+the property also includes the app area and writing load.
+
+
 manual for kernel :
 
   https://downloads.mysql.com/docs/mysql-cluster-excerpt-8.0-en.pdf
