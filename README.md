@@ -3,6 +3,10 @@
 quick start :
 
   https://downloads.mysql.com/tutorials/cluster/mysql_wp_cluster_quickstart.pdf
+  
+download :
+
+  https://dev.mysql.com/downloads/file/?id=494619
 
 manual :
 
