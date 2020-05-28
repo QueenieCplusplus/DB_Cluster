@@ -41,7 +41,7 @@ then edit hosts, including platform/memory/cpu/fs: data dir, and mysql cluster i
     usr/local/bin
     
     
-    /var/lib/mysql-cluster-data
+    /var/lib/mysql-cluster-data || ~/cluster1
 
 
 manual for kernel :
